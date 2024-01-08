@@ -123,7 +123,97 @@ main{
 .img_2024{
     padding: 68px 138px 68px 0px;
 }
-.third_element{
+.third_section{
     text-align: center;
-    padding-top: 120pxs;
+    padding-top: 120px;
+    background-image:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 1320px;
+    height: 482px;
+    
+}
+.third_element{
+    padding: 100px 386px;
+}
+.place, .date, .time{
+    color: #F00;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px; /* 175% */
+    text-transform: capitalize;
+}
+.place2,.date2,.time2{
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+.primary_btn{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    border-radius: 8px;
+    background: #F00;
+    
+}
+.btn_text{
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.fourth_section{
+    margin-top: 120px;
+
+    height: 463px;
+    
+
+}
+.fourth_element{
+    display: flex;
+}
+.fourth_element1{
+    width: 393px;
+    height: 128px;
+    margin-right: 70px;
+}
+.fourth_left_title1{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+.fourth_left_title2{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    
+}
+.fourth_left_text{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+    padding: 0px;
+}
+.fourth_element2{
+    height: 463px;
+    width: 463px;
+    /* border-radius: 463px; */
+    border: 15px solid #F00;
+    
+    
+}
+.fourth_img{
+    width: 364.844px;
+    height: 364.844px;
+    flex-shrink: 0;
+    border-radius: 364.844px;
+    background-image: url('../resources/esources/Ellipse_1.png'), lightgray -91.279px 0px / 150.038% 100% no-repeat;
 }
