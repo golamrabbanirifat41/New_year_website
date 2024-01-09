@@ -236,9 +236,233 @@ main{
 }
 .fourht_right_text{
     color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+}
+.fifth_section{
+    max-height:986.07px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+
+}
+.fifth_upper{
+    text-align: center;
+    
+}
+.fifth_title1{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.fifth_title2>.left{
+    color: #F00;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+.fifth_title2>.right{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.fifth_text{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 50px;
+    
+}
+.fifth_lower{
+    display: flex;
+    background-image: url('../resources/Rectangle2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-top: 64px;
+    /* align-items: center; */
+    justify-content: space-between;
+
+}
+.fifth_lower_right{
+    background-image: url('../resources/Rectangle_1.png') ;
+    /* border-radius: 16px 16px 0px 0px; */
+    background-repeat:no-repeat;
+    background-position: top right;
+    width: 500px;
+    flex-shrink: 0;
+    background-size: 75% 66%;
+    
+}
+.fifth_img_right{
+    float: left;
+    padding-top: 100px;
+    width: 206.841px;
+    height: 206.841px;
+    flex-shrink: 0;
+}
+.fifth_lower_left{
+    position: relative;
+    overflow: hidden;
+}
+.fifth_img_left{
+    object-fit: cover;
+}
+.fifth_lower_left::before{
+    position: absolute;
+    background: radial-gradient(49.96% 50% at 50% 50.23%, #000 0%, #FFF 100%);
+    mix-blend-mode: multiply;
+}
+.six-section{
+    margin-bottom: 120px;
+}
+.sixth-upper{
+    margin-bottom: 48px;
+}
+
+.sixth-title1{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.sixth-title2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.sixth-text{
+    color: rgba(7, 2, 17, 0.60);
 font-family: Inter;
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
 line-height: 32px; /* 160% */
+width: 896px;
+}
+
+.sixth-lower1{
+    display:flex;
+    gap: 24px;
+    padding-bottom: 24px;
+}
+.sixth-lower2{
+    display: flex;
+    gap: 24px;
+}
+
+.lower1-image1,
+.lower1-image2,
+.lower1-image3,
+.lower2-image1,
+.lower2-image2,
+.lower2-image3 {
+  width: 424px;
+  height: 450px;
+  overflow: hidden;
+  border-radius:16px;
+}
+
+
+.lower1-image1:hover img,
+.lower1-image2:hover img,
+.lower1-image3:hover img,
+.lower2-image1:hover img,
+.lower2-image2:hover img,
+.lower2-image3:hover img{
+    /* border: 16px solid violet;
+    border-radius: 16px; */
+    transform: scale(1.25);
+}
+
+.seventh-section{
+    text-align: center;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding-top: 80px;
+
+}
+.seventh-element{
+    height: 616px;
+}
+.seventh-img{
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    margin-bottom: 40px;
+}
+.seventh-title{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+.seventh-text{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    width: 896px;
+    margin-left: 170px;
+    margin-bottom: 48px;
+}
+.seventh-bottom{
+    width: 648px;
+    height: 72px;
+    display: flex;
+    border-radius: 50px;
+    background: #FFF;
+    justify-content: space-between;
+    padding-left: 30px;
+    margin: 0 auto;
+}
+.seventh-button{
+    width: 210px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+}
+.button-text{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.seventh-email{
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
 }
