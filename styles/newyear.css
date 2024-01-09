@@ -163,6 +163,7 @@ main{
     border-radius: 8px;
     background: #F00;
     cursor: pointer;
+    border: none;
     
 }
 .btn_text{
@@ -313,18 +314,8 @@ main{
     height: 206.841px;
     flex-shrink: 0;
 }
-.fifth_lower_left{
-    position: relative;
-    overflow: hidden;
-}
-.fifth_img_left{
-    object-fit: cover;
-}
-.fifth_lower_left::before{
-    position: absolute;
-    background: radial-gradient(49.96% 50% at 50% 50.23%, #000 0%, #FFF 100%);
-    mix-blend-mode: multiply;
-}
+
+
 .six-section{
     margin-bottom: 120px;
 }
@@ -529,4 +520,5 @@ width: 896px;
     background-color: transparent;
     border: none;
     cursor: pointer;
+    
 }
