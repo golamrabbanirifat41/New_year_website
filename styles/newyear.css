@@ -1,5 +1,5 @@
 /* Font Family for body content */
-* { border: 1px solid red; }
+/* * { border: 1px solid red; } */
 body{
     
     font-family: 'Inter', sans-serif;
@@ -181,16 +181,18 @@ main{
     align-items: center;
 }
 .fourth_element1{
-    width: 393px;
-    height: 463px;
+    max-width: 393px;
+    max-height: 463px;
     margin-right: 70px;
-    padding: 20px 0;
+    gap: 1px;
+    
 
 }
 .fourth_left_title1{
     color: #F00;
     font-size: 24px;
     font-weight: 500;
+    margin: 0;
 }
 .fourth_left_title2{
     color: #070211;
